@@ -1,0 +1,38 @@
+/* General Background Styles */
+body {
+    background-image: url('WallpaperDog-10994699'); /* Arka plan resmi URL'si */
+    background-size: cover; /* Resmi tam kapsamak için */
+    background-repeat: no-repeat; /* Resmin tekrar edilmesini önler */
+    background-position: center; /* Resmi ortalar */
+    color: #ffffff; /* White text color */
+}
+
+/* Clickable Buttons */
+a, button {
+    color: #ff4a95; /* Pink color for clickable elements */
+    text-decoration: none; /* No underline */
+}
+
+/* General Text */
+h1, h2, h3, p {
+    color: #ffffff; /* White text color */
+}
+
+/* Special Text */
+.special-text {
+    color: #fffafc; /* Light gray/pink color for special text */
+}
+
+/* Photo Upload Area */
+.photo-upload {
+    opacity: 0.5; /* 50% opacity for photo upload area */
+}
+
+/* Lyrics Card */
+.lyrics-card {
+    background-color: rgba(255, 212, 230, 0.8); /* Lyrics card with a deeper pink background */
+    color: #ffffff; /* White text color */
+    border: 1px solid #ff4a95; /* Pink border */
+    padding: 15px; /* Padding for content */
+    border-radius: 8px; /* Border radius for corners */
+}
